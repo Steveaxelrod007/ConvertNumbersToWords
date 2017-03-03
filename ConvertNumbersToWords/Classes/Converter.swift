@@ -2,7 +2,7 @@
 
 import UIKit
 
-class ConvertNumbersToWords
+class Converter
 {
 
 

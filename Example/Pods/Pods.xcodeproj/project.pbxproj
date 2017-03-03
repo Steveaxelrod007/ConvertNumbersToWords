@@ -12,7 +12,7 @@
 		518383392EA8A22882C6A3E32CB766D4 /* ConvertNumbersToWords-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C530B1FBF30FC266759A080EDA5F6C7 /* ConvertNumbersToWords-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7DA7CEADB575845E59195CC7B0450923 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		9F2F9707ACF428AF5A3ABEC1E653CE14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		AA1837B61E69A08600115D85 /* ConvertNumbersToWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1837B51E69A08600115D85 /* ConvertNumbersToWords.swift */; };
+		AA1837B61E69A08600115D85 /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1837B51E69A08600115D85 /* Converter.swift */; };
 		C4B4BD0AA3E97BB7D83C670EEF548C79 /* ConvertNumbersToWords-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E59B9ABE7C9C748B2E0B46F2924DC83F /* ConvertNumbersToWords-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -41,7 +41,7 @@
 		9985CCC869E0D00D66A8DC7D81A2A71E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A30CF4F3EAAB2656C0165339B327EE1A /* Pods-ConvertNumbersToWords_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ConvertNumbersToWords_Tests.modulemap"; sourceTree = "<group>"; };
 		A73DB504AE22A93B1613E4A146F064F5 /* ConvertNumbersToWords-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ConvertNumbersToWords-prefix.pch"; sourceTree = "<group>"; };
-		AA1837B51E69A08600115D85 /* ConvertNumbersToWords.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConvertNumbersToWords.swift; sourceTree = "<group>"; };
+		AA1837B51E69A08600115D85 /* Converter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
 		BA8FC06068444261F34E42E933C9E0BA /* ConvertNumbersToWords.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ConvertNumbersToWords.xcconfig; sourceTree = "<group>"; };
 		BF58F17615A79048150C64A66F48681E /* Pods-ConvertNumbersToWords_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ConvertNumbersToWords_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -159,7 +159,7 @@
 		C635BE56B8D1A6CD6EF30992ABD0A604 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				AA1837B51E69A08600115D85 /* ConvertNumbersToWords.swift */,
+				AA1837B51E69A08600115D85 /* Converter.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -270,7 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4B4BD0AA3E97BB7D83C670EEF548C79 /* ConvertNumbersToWords-dummy.m in Sources */,
-				AA1837B61E69A08600115D85 /* ConvertNumbersToWords.swift in Sources */,
+				AA1837B61E69A08600115D85 /* Converter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
