@@ -12,8 +12,8 @@
 		518383392EA8A22882C6A3E32CB766D4 /* ConvertNumbersToWords-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C530B1FBF30FC266759A080EDA5F6C7 /* ConvertNumbersToWords-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7DA7CEADB575845E59195CC7B0450923 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		9F2F9707ACF428AF5A3ABEC1E653CE14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		AA1837B61E69A08600115D85 /* ConvertNumbersToWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1837B51E69A08600115D85 /* ConvertNumbersToWords.swift */; };
 		C4B4BD0AA3E97BB7D83C670EEF548C79 /* ConvertNumbersToWords-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E59B9ABE7C9C748B2E0B46F2924DC83F /* ConvertNumbersToWords-dummy.m */; };
-		FB6F22F83B9B5F0E0D160D0190FFF87E /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348DD185B19BB5434E71612A86F9755D /* ReplaceMe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,21 +27,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07735A9B1FCA8DBDDDE0D237E3D027A2 /* Pods_ConvertNumbersToWords_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ConvertNumbersToWords_Tests.framework; path = "Pods-ConvertNumbersToWords_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07735A9B1FCA8DBDDDE0D237E3D027A2 /* Pods_ConvertNumbersToWords_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConvertNumbersToWords_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		16E5602DA5555D24289B031D34D4E1D9 /* Pods-ConvertNumbersToWords_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ConvertNumbersToWords_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		1C530B1FBF30FC266759A080EDA5F6C7 /* ConvertNumbersToWords-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ConvertNumbersToWords-umbrella.h"; sourceTree = "<group>"; };
 		21BCC9E9C3AEA8407CBB4BAF78067FE5 /* Pods-ConvertNumbersToWords_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ConvertNumbersToWords_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		2562C4B2A366D4DEDD440672FFEB0879 /* Pods-ConvertNumbersToWords_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ConvertNumbersToWords_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		348DD185B19BB5434E71612A86F9755D /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
-		3624AE14D3568FC98CD676BDF92F2C98 /* ConvertNumbersToWords.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ConvertNumbersToWords.framework; path = ConvertNumbersToWords.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3624AE14D3568FC98CD676BDF92F2C98 /* ConvertNumbersToWords.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ConvertNumbersToWords.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		58B5CB2AC570F6E29FBC6A5D19468DAA /* Pods-ConvertNumbersToWords_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ConvertNumbersToWords_Tests-umbrella.h"; sourceTree = "<group>"; };
 		6CBD1A6E4F032C4BF224D5F690695A3F /* Pods-ConvertNumbersToWords_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ConvertNumbersToWords_Tests-dummy.m"; sourceTree = "<group>"; };
-		7B0830569CBC7581553E13719BC6DA58 /* ConvertNumbersToWords.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ConvertNumbersToWords.modulemap; sourceTree = "<group>"; };
+		7B0830569CBC7581553E13719BC6DA58 /* ConvertNumbersToWords.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ConvertNumbersToWords.modulemap; sourceTree = "<group>"; };
 		8438E01B56450E58F20D86E8E5598545 /* Pods-ConvertNumbersToWords_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ConvertNumbersToWords_Tests-resources.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9985CCC869E0D00D66A8DC7D81A2A71E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A30CF4F3EAAB2656C0165339B327EE1A /* Pods-ConvertNumbersToWords_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ConvertNumbersToWords_Tests.modulemap"; sourceTree = "<group>"; };
+		A30CF4F3EAAB2656C0165339B327EE1A /* Pods-ConvertNumbersToWords_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ConvertNumbersToWords_Tests.modulemap"; sourceTree = "<group>"; };
 		A73DB504AE22A93B1613E4A146F064F5 /* ConvertNumbersToWords-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ConvertNumbersToWords-prefix.pch"; sourceTree = "<group>"; };
+		AA1837B51E69A08600115D85 /* ConvertNumbersToWords.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConvertNumbersToWords.swift; sourceTree = "<group>"; };
 		BA8FC06068444261F34E42E933C9E0BA /* ConvertNumbersToWords.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ConvertNumbersToWords.xcconfig; sourceTree = "<group>"; };
 		BF58F17615A79048150C64A66F48681E /* Pods-ConvertNumbersToWords_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ConvertNumbersToWords_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -85,7 +85,6 @@
 			children = (
 				C635BE56B8D1A6CD6EF30992ABD0A604 /* Classes */,
 			);
-			name = ConvertNumbersToWords;
 			path = ConvertNumbersToWords;
 			sourceTree = "<group>";
 		};
@@ -160,9 +159,8 @@
 		C635BE56B8D1A6CD6EF30992ABD0A604 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				348DD185B19BB5434E71612A86F9755D /* ReplaceMe.swift */,
+				AA1837B51E69A08600115D85 /* ConvertNumbersToWords.swift */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -272,7 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4B4BD0AA3E97BB7D83C670EEF548C79 /* ConvertNumbersToWords-dummy.m in Sources */,
-				FB6F22F83B9B5F0E0D160D0190FFF87E /* ReplaceMe.swift in Sources */,
+				AA1837B61E69A08600115D85 /* ConvertNumbersToWords.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
