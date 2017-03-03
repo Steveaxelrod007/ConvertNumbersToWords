@@ -2,7 +2,7 @@
 
 import UIKit
 
-class CheckWriter
+class ConvertNumbersToWords
 {
 
 

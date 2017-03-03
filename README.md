@@ -1,4 +1,4 @@
-# ConvertNumbersToWords
+# ConvertNumbersToWords converts numbers as strings to english words 
 
 [![CI Status](http://img.shields.io/travis/steveaxelrod007/ConvertNumbersToWords.svg?style=flat)](https://travis-ci.org/steveaxelrod007/ConvertNumbersToWords)
 [![Version](https://img.shields.io/cocoapods/v/ConvertNumbersToWords.svg?style=flat)](http://cocoapods.org/pods/ConvertNumbersToWords)
@@ -7,7 +7,7 @@
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
 
 ## Requirements
 
@@ -22,7 +22,7 @@ pod "ConvertNumbersToWords"
 
 ## Author
 
-steveaxelrod007, steve@axelrod.net
+axee.com  steve@axelrod.net
 
 ## License
 
