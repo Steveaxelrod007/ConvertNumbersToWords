@@ -1,0 +1,22 @@
+{
+  "name": "ConvertNumbersToWords",
+  "version": "0.1.0",
+  "summary": "A short description of ConvertNumbersToWords.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/steveaxelrod007/ConvertNumbersToWords",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "steveaxelrod007": "steve@axelrod.net"
+  },
+  "source": {
+    "git": "https://github.com/steveaxelrod007/ConvertNumbersToWords.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ConvertNumbersToWords/Classes/**/*"
+}

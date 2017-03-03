@@ -1,0 +1,16 @@
+PODS:
+  - ConvertNumbersToWords (0.1.0)
+
+DEPENDENCIES:
+  - ConvertNumbersToWords (from `../`)
+
+EXTERNAL SOURCES:
+  ConvertNumbersToWords:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ConvertNumbersToWords: f2d93ec480955bfb79fb4dacaed8848935bcff65
+
+PODFILE CHECKSUM: 98f0b7642fe6cd6d1f3871bc4c68b8adfab0605d
+
+COCOAPODS: 1.2.0

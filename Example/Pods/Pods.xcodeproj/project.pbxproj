@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C67FA9E09F25196253284ACB531E093 /* Pods-ConvertNumbersToWords_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CBD1A6E4F032C4BF224D5F690695A3F /* Pods-ConvertNumbersToWords_Tests-dummy.m */; };
+		3DC34C4F5CEA1322299B19156D15679A /* Pods-ConvertNumbersToWords_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 58B5CB2AC570F6E29FBC6A5D19468DAA /* Pods-ConvertNumbersToWords_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		518383392EA8A22882C6A3E32CB766D4 /* ConvertNumbersToWords-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C530B1FBF30FC266759A080EDA5F6C7 /* ConvertNumbersToWords-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DA7CEADB575845E59195CC7B0450923 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		9F2F9707ACF428AF5A3ABEC1E653CE14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		C4B4BD0AA3E97BB7D83C670EEF548C79 /* ConvertNumbersToWords-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E59B9ABE7C9C748B2E0B46F2924DC83F /* ConvertNumbersToWords-dummy.m */; };
+		FB6F22F83B9B5F0E0D160D0190FFF87E /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348DD185B19BB5434E71612A86F9755D /* ReplaceMe.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D489F2EF87BB97A2E547BF10C5E1E555 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56AC288CB5ACF2C61D6B87C536090ACB;
+			remoteInfo = ConvertNumbersToWords;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07735A9B1FCA8DBDDDE0D237E3D027A2 /* Pods_ConvertNumbersToWords_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ConvertNumbersToWords_Tests.framework; path = "Pods-ConvertNumbersToWords_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16E5602DA5555D24289B031D34D4E1D9 /* Pods-ConvertNumbersToWords_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ConvertNumbersToWords_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1C530B1FBF30FC266759A080EDA5F6C7 /* ConvertNumbersToWords-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ConvertNumbersToWords-umbrella.h"; sourceTree = "<group>"; };
+		21BCC9E9C3AEA8407CBB4BAF78067FE5 /* Pods-ConvertNumbersToWords_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ConvertNumbersToWords_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		2562C4B2A366D4DEDD440672FFEB0879 /* Pods-ConvertNumbersToWords_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ConvertNumbersToWords_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		348DD185B19BB5434E71612A86F9755D /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		3624AE14D3568FC98CD676BDF92F2C98 /* ConvertNumbersToWords.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ConvertNumbersToWords.framework; path = ConvertNumbersToWords.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58B5CB2AC570F6E29FBC6A5D19468DAA /* Pods-ConvertNumbersToWords_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ConvertNumbersToWords_Tests-umbrella.h"; sourceTree = "<group>"; };
+		6CBD1A6E4F032C4BF224D5F690695A3F /* Pods-ConvertNumbersToWords_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ConvertNumbersToWords_Tests-dummy.m"; sourceTree = "<group>"; };
+		7B0830569CBC7581553E13719BC6DA58 /* ConvertNumbersToWords.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ConvertNumbersToWords.modulemap; sourceTree = "<group>"; };
+		8438E01B56450E58F20D86E8E5598545 /* Pods-ConvertNumbersToWords_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ConvertNumbersToWords_Tests-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9985CCC869E0D00D66A8DC7D81A2A71E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A30CF4F3EAAB2656C0165339B327EE1A /* Pods-ConvertNumbersToWords_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ConvertNumbersToWords_Tests.modulemap"; sourceTree = "<group>"; };
+		A73DB504AE22A93B1613E4A146F064F5 /* ConvertNumbersToWords-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ConvertNumbersToWords-prefix.pch"; sourceTree = "<group>"; };
+		BA8FC06068444261F34E42E933C9E0BA /* ConvertNumbersToWords.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ConvertNumbersToWords.xcconfig; sourceTree = "<group>"; };
+		BF58F17615A79048150C64A66F48681E /* Pods-ConvertNumbersToWords_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ConvertNumbersToWords_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DF8EB2678A4D923BE8EF1EC04DAA43DB /* Pods-ConvertNumbersToWords_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ConvertNumbersToWords_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		DFBD5003DE51382489F13A6662FD76EA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E59B9ABE7C9C748B2E0B46F2924DC83F /* ConvertNumbersToWords-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ConvertNumbersToWords-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73DB7503B6E171E4BCC48D422BB0C8C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DA7CEADB575845E59195CC7B0450923 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D74E38A8D939E76432EB6AAA3BD66359 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F2F9707ACF428AF5A3ABEC1E653CE14 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12C90A04FDF4DD131FED4D94F31CB60B /* ConvertNumbersToWords */ = {
+			isa = PBXGroup;
+			children = (
+				21DB6AEB8D8B9ABAF4CCF2823F6EF2C3 /* ConvertNumbersToWords */,
+				9C5B0A78316C2F79E90E2532E3625E9D /* Support Files */,
+			);
+			name = ConvertNumbersToWords;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		21DB6AEB8D8B9ABAF4CCF2823F6EF2C3 /* ConvertNumbersToWords */ = {
+			isa = PBXGroup;
+			children = (
+				C635BE56B8D1A6CD6EF30992ABD0A604 /* Classes */,
+			);
+			name = ConvertNumbersToWords;
+			path = ConvertNumbersToWords;
+			sourceTree = "<group>";
+		};
+		6568EA3DA2D469739408F4BBB4F3CD86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3624AE14D3568FC98CD676BDF92F2C98 /* ConvertNumbersToWords.framework */,
+				07735A9B1FCA8DBDDDE0D237E3D027A2 /* Pods_ConvertNumbersToWords_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7D8B0743722C8F646A026CD0AD943778 /* Pods-ConvertNumbersToWords_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DFBD5003DE51382489F13A6662FD76EA /* Info.plist */,
+				A30CF4F3EAAB2656C0165339B327EE1A /* Pods-ConvertNumbersToWords_Tests.modulemap */,
+				BF58F17615A79048150C64A66F48681E /* Pods-ConvertNumbersToWords_Tests-acknowledgements.markdown */,
+				16E5602DA5555D24289B031D34D4E1D9 /* Pods-ConvertNumbersToWords_Tests-acknowledgements.plist */,
+				6CBD1A6E4F032C4BF224D5F690695A3F /* Pods-ConvertNumbersToWords_Tests-dummy.m */,
+				21BCC9E9C3AEA8407CBB4BAF78067FE5 /* Pods-ConvertNumbersToWords_Tests-frameworks.sh */,
+				8438E01B56450E58F20D86E8E5598545 /* Pods-ConvertNumbersToWords_Tests-resources.sh */,
+				58B5CB2AC570F6E29FBC6A5D19468DAA /* Pods-ConvertNumbersToWords_Tests-umbrella.h */,
+				DF8EB2678A4D923BE8EF1EC04DAA43DB /* Pods-ConvertNumbersToWords_Tests.debug.xcconfig */,
+				2562C4B2A366D4DEDD440672FFEB0879 /* Pods-ConvertNumbersToWords_Tests.release.xcconfig */,
+			);
+			name = "Pods-ConvertNumbersToWords_Tests";
+			path = "Target Support Files/Pods-ConvertNumbersToWords_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				FE6E6FCE646BC1DE7701B2C35436D0AA /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6568EA3DA2D469739408F4BBB4F3CD86 /* Products */,
+				CD46BB51833DFFE86143A5BB8B0A29EF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9C5B0A78316C2F79E90E2532E3625E9D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B0830569CBC7581553E13719BC6DA58 /* ConvertNumbersToWords.modulemap */,
+				BA8FC06068444261F34E42E933C9E0BA /* ConvertNumbersToWords.xcconfig */,
+				E59B9ABE7C9C748B2E0B46F2924DC83F /* ConvertNumbersToWords-dummy.m */,
+				A73DB504AE22A93B1613E4A146F064F5 /* ConvertNumbersToWords-prefix.pch */,
+				1C530B1FBF30FC266759A080EDA5F6C7 /* ConvertNumbersToWords-umbrella.h */,
+				9985CCC869E0D00D66A8DC7D81A2A71E /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ConvertNumbersToWords";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C635BE56B8D1A6CD6EF30992ABD0A604 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				348DD185B19BB5434E71612A86F9755D /* ReplaceMe.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CD46BB51833DFFE86143A5BB8B0A29EF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D8B0743722C8F646A026CD0AD943778 /* Pods-ConvertNumbersToWords_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FE6E6FCE646BC1DE7701B2C35436D0AA /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				12C90A04FDF4DD131FED4D94F31CB60B /* ConvertNumbersToWords */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AB7D2AA0015D4B8E68830634A8291ACD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				518383392EA8A22882C6A3E32CB766D4 /* ConvertNumbersToWords-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3CC7378C91DDBFD12A55ECAE2F1B4FF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DC34C4F5CEA1322299B19156D15679A /* Pods-ConvertNumbersToWords_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		56AC288CB5ACF2C61D6B87C536090ACB /* ConvertNumbersToWords */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED1F67440EE2CDF5F120B7734C3E06DB /* Build configuration list for PBXNativeTarget "ConvertNumbersToWords" */;
+			buildPhases = (
+				46655B281BDE68EC51FEDCF7938E4F57 /* Sources */,
+				D74E38A8D939E76432EB6AAA3BD66359 /* Frameworks */,
+				AB7D2AA0015D4B8E68830634A8291ACD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConvertNumbersToWords;
+			productName = ConvertNumbersToWords;
+			productReference = 3624AE14D3568FC98CD676BDF92F2C98 /* ConvertNumbersToWords.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B1AD237AAC56610904C1F83053892A1F /* Pods-ConvertNumbersToWords_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53550C46D6E9BA8D23F27864E438FA22 /* Build configuration list for PBXNativeTarget "Pods-ConvertNumbersToWords_Tests" */;
+			buildPhases = (
+				F5CB1391759322B4B83415316657C591 /* Sources */,
+				73DB7503B6E171E4BCC48D422BB0C8C9 /* Frameworks */,
+				C3CC7378C91DDBFD12A55ECAE2F1B4FF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9269A6A60FA76D0D937F6ABECC8A154 /* PBXTargetDependency */,
+			);
+			name = "Pods-ConvertNumbersToWords_Tests";
+			productName = "Pods-ConvertNumbersToWords_Tests";
+			productReference = 07735A9B1FCA8DBDDDE0D237E3D027A2 /* Pods_ConvertNumbersToWords_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 6568EA3DA2D469739408F4BBB4F3CD86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56AC288CB5ACF2C61D6B87C536090ACB /* ConvertNumbersToWords */,
+				B1AD237AAC56610904C1F83053892A1F /* Pods-ConvertNumbersToWords_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46655B281BDE68EC51FEDCF7938E4F57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4B4BD0AA3E97BB7D83C670EEF548C79 /* ConvertNumbersToWords-dummy.m in Sources */,
+				FB6F22F83B9B5F0E0D160D0190FFF87E /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5CB1391759322B4B83415316657C591 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C67FA9E09F25196253284ACB531E093 /* Pods-ConvertNumbersToWords_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B9269A6A60FA76D0D937F6ABECC8A154 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ConvertNumbersToWords;
+			target = 56AC288CB5ACF2C61D6B87C536090ACB /* ConvertNumbersToWords */;
+			targetProxy = D489F2EF87BB97A2E547BF10C5E1E555 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		59948FA72F4DD4AAA46BBD8D0295DD2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA8FC06068444261F34E42E933C9E0BA /* ConvertNumbersToWords.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ConvertNumbersToWords/ConvertNumbersToWords-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ConvertNumbersToWords/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ConvertNumbersToWords/ConvertNumbersToWords.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ConvertNumbersToWords;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		662723AB19CF5F6994DE4A168C0EF694 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF8EB2678A4D923BE8EF1EC04DAA43DB /* Pods-ConvertNumbersToWords_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ConvertNumbersToWords_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ConvertNumbersToWords_Tests/Pods-ConvertNumbersToWords_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ConvertNumbersToWords_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EDA66F3703763BFCA43BAEF86DB7FE7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA8FC06068444261F34E42E933C9E0BA /* ConvertNumbersToWords.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ConvertNumbersToWords/ConvertNumbersToWords-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ConvertNumbersToWords/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ConvertNumbersToWords/ConvertNumbersToWords.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ConvertNumbersToWords;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FB5B556CADE8FF0274D5CA9D7B7699D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2562C4B2A366D4DEDD440672FFEB0879 /* Pods-ConvertNumbersToWords_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ConvertNumbersToWords_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ConvertNumbersToWords_Tests/Pods-ConvertNumbersToWords_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ConvertNumbersToWords_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53550C46D6E9BA8D23F27864E438FA22 /* Build configuration list for PBXNativeTarget "Pods-ConvertNumbersToWords_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				662723AB19CF5F6994DE4A168C0EF694 /* Debug */,
+				FB5B556CADE8FF0274D5CA9D7B7699D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED1F67440EE2CDF5F120B7734C3E06DB /* Build configuration list for PBXNativeTarget "ConvertNumbersToWords" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDA66F3703763BFCA43BAEF86DB7FE7F /* Debug */,
+				59948FA72F4DD4AAA46BBD8D0295DD2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

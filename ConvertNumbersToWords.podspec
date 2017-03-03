@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ConvertNumbersToWords'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of ConvertNumbersToWords.'
+  s.version          = '1.0.0'
+  s.summary          = 'Converts a number, $1,234.56 to one thousand two hundred thirty four dollars and 56/100'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,8 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Convert decimal values to words for use in writing a check.  Cause we all write checks these days....
+* I was bored and helped a friend out. 
                        DESC
 
   s.homepage         = 'https://github.com/steveaxelrod007/ConvertNumbersToWords'

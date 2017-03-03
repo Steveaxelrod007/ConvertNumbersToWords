@@ -1,0 +1,6 @@
+framework module ConvertNumbersToWords {
+  umbrella header "ConvertNumbersToWords-umbrella.h"
+
+  export *
+  module * { export * }
+}
