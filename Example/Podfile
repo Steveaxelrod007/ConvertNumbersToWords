@@ -1,0 +1,6 @@
+use_frameworks!
+target 'ConvertNumbersToWords_Tests' do
+  pod 'ConvertNumbersToWords', :path => '../'
+  
+  
+end
