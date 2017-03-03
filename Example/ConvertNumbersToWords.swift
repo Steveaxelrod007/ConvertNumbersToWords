@@ -22,12 +22,9 @@ var retDollars = ""
  let newAmount = amount.components(separatedBy: CharacterSet(charactersIn: "0123456789.").inverted).joined() // axe remove any commas, spaces.... 
  var values = newAmount.components(separatedBy: ".")  // axe convert to 1234.56 format
 
- guard let dollars = values.first else
-   {
-   return defaultString 
-   }
+ guard let dollars = values.first else { return defaultString }  // axe check for some values
    
- values.removeFirst()
+ values.removeFirst()   // axe see if there are any pennies to display
  if let cents = values.first
     {
     retCents = " and " + cents + "/100"    

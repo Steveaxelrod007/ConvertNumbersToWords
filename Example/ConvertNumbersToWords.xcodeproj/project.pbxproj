@@ -145,6 +145,7 @@
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0820;
+						ProvisioningStyle = Manual;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -329,6 +330,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8F9FF2416FBB38D5DB326C16 /* Pods-ConvertNumbersToWords_Tests.debug.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -349,6 +352,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3F42E1E86D6FD36CE31A56AE /* Pods-ConvertNumbersToWords_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
