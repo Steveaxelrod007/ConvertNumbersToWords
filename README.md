@@ -15,7 +15,7 @@ let words = Converter.convert(amount: "9,304.67")
 print(words)
 nine thousand three hundred four dollars and 67/100
 
-amount can be 0.01 ... 999,999.99
+amount can be 0.01 ... 999,999.99  nine hundred ninety nine thousand nine hundred ninety nine dollars and 99/100
 
 ## Requirements
 

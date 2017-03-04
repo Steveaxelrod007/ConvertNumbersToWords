@@ -20,13 +20,13 @@ override func tearDown()
 func testExample() 
 {
  print("********************************************************")
- var amt = 1.23
+ let amt = 999999.99
  
- while amt <= 999999
-   { 
+// while amt <= 999999
+//   { 
    print("Original: \(amt)  -->  \(Converter.convert(amount: String(amt)))")
-   amt += 1
-   }
+//   amt += 1
+//   }
 
  print("********************************************************")
  XCTAssert(true, "Pass")
