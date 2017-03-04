@@ -28,7 +28,10 @@ var retDollars = ""
  if var cents = values.first
     {
     while cents.characters.count > 2 
-    { cents.characters.dropLast() }
+       { 
+       cents.characters = cents.characters.dropLast() 
+       }
+       
     retCents = " and " + cents + "/100"    
     }
 
