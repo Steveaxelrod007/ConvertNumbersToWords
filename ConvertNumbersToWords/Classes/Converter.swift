@@ -37,8 +37,8 @@ var retDollars = ""
 
  guard var dollarAmount = Int(dollars) else { return defaultString }
  
- if dollarAmount < 1  { return "Zero Dollars" + retCents }
- if dollarAmount == 1 { return "One Dollar"   + retCents }
+ if dollarAmount < 1  { return "zero dollars" + retCents }
+ if dollarAmount == 1 { return "one dollar"   + retCents }
  
  while dollarAmount > 0
    {
@@ -66,7 +66,31 @@ var retDollars = ""
            retDollars = retDollars + oneToNineteen[val] + " thousand "
            dollarAmount -= (val * 1000)
            if dollarAmount == 0 { retDollars = retDollars + "dollars " }
-                   
+
+      case 10000...99999: 
+           let val = dollarAmount / 1000  // axe get thousands digit
+           
+           if val < 20
+              {
+              retDollars = retDollars + oneToNineteen[val] + " thousand "
+              }
+           else
+              {
+              let tenVal = val / 10        // axe get tens digit
+              retDollars = retDollars + tens[tenVal] + " "
+              let singlesVal = val - (tenVal * 10)   // axe get singles digit
+              retDollars = retDollars + oneToNineteen[singlesVal] + " thousand "
+              }   
+
+           dollarAmount -= (val * 1000)   // axe adjust dollar amount for loop
+           if dollarAmount == 0 { retDollars = retDollars + "dollars " }
+
+      case 100000...999999:
+           let val = dollarAmount / 100000  // axe get hundred thousand digit
+           retDollars = retDollars + oneToNineteen[val] + " hundred "
+           dollarAmount -= (val * 100000)
+           if dollarAmount == 0 { retDollars = retDollars + " thousand dollars " }
+       
       default: break
       }
    }
