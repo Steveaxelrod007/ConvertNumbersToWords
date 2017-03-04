@@ -25,9 +25,10 @@ var retDollars = ""
  guard let dollars = values.first else { return defaultString }  // axe check for some values
    
  values.removeFirst()   // axe see if there are any pennies to display
- if let cents = values.first
+ if var cents = values.first
     {
-    while cents.characters.count > 2 { cents.characters.dropLast() }
+    while cents.characters.count > 2 
+    { cents.characters.dropLast() }
     retCents = " and " + cents + "/100"    
     }
 
