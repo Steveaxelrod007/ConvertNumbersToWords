@@ -2,11 +2,11 @@
 
 import UIKit
 
-class Converter
+open class Converter
 {
 
 
-class func convert(amount: String) -> String   // axe assumes 0.00 minimum amount sent in  for 50 cents  0.50
+open class func convert(amount: String) -> String   // axe assumes 0.00 minimum amount sent in  for 50 cents  0.50
 {
 let oneToNineteen = ["", "one", "two", "three", "four", "five", "six",   // axe numbers we index with are one relative
                      "seven", "eight", "nine", "ten", "eleven", "twelve",
