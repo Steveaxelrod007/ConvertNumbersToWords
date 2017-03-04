@@ -22,7 +22,7 @@ Convert decimal values to words for use in writing a check.  Cause we all write 
 * I was bored and helped a friend out. 
                        DESC
 
-  s.homepage         = 'https://github.com/steveaxelrod007/ConvertNumbersToWords'
+  s.homepage         = 'http://www.axee.com'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'steveaxelrod007' => 'steve@axelrod.net' }
