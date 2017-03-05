@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ConvertNumbersToWords'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'Converts a number, $1,234.56 to one thousand two hundred thirty four dollars and 56/100'
 
 # This description is used to generate tags and improve search results.
